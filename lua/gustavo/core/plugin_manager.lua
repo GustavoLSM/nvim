@@ -14,4 +14,4 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then -- Clone Lazy vim if not inst
 end
 vim.opt.rtp:prepend(lazypath)
 
-require('lazy').setup('gustavo.plugins') -- Load Lazy vim
+require('lazy').setup('gustavo.plugins') -- Load plugins
