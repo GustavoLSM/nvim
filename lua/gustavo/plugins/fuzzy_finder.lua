@@ -13,5 +13,8 @@ return {
         -- Keyboard shortcuts
         vim.keymap.set('n', '<C-f>', builtin.find_files, {}) -- Find files by name
         vim.keymap.set('n', '<leader>f', builtin.live_grep, {}) -- Type something to search through the files
+
+        -- Ignored searches
+        file_ignore_patterns = { 'node_modules' } -- Ignore node_modules folder while fuzzy finding 
     end,
 }
