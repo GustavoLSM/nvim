@@ -45,6 +45,7 @@ return {
             -- Sources for code completion
             sources = cmp.config.sources({
                 { name = 'luasnip' }, -- Snippet engine
+                { name = 'nvim_lsp' }, -- LSP engine
                 { name = 'buffer' }, -- Text in the current file
                 { name = 'path' }, -- System paths
             }),
