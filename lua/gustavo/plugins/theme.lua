@@ -1,7 +1,7 @@
 -- Colorscheme
 return {
-    'CantoroMC/nvim-nightmare', -- Clone the colorscheme
+    'eldritch-theme/eldritch.nvim', -- Clone the colorscheme
     config = function()
-        vim.cmd('colorscheme nightmare') -- Load the colorscheme
+        vim.cmd('colorscheme eldritch') -- Load the colorscheme
     end,
 }
