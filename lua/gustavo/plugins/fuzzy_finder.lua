@@ -2,7 +2,7 @@
 return {
     'nvim-telescope/telescope.nvim', -- Clone the fuzzy finder
     tag = '0.1.6', -- Telescope version
-    dependencies = { 
+    dependencies = {
         'nvim-lua/plenary.nvim', -- Plenary necessary to use Telescope
         'nvim-tree/nvim-web-devicons', -- DevIcons show icons when searching file in Telescope
     },
