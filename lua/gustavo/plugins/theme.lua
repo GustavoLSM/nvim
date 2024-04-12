@@ -1,7 +1,7 @@
 -- Colorscheme
 return {
-    'eldritch-theme/eldritch.nvim', -- Clone the colorscheme
+    'EdenEast/nightfox.nvim', -- Clone the colorscheme
     config = function()
-        vim.cmd('colorscheme eldritch') -- Load the colorscheme
+        vim.cmd('colorscheme carbonfox') -- Load the colorscheme
     end,
 }
