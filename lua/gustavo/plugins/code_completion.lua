@@ -1,13 +1,13 @@
--- Nvim CMP
+-- Nvim cmp
 return {
-    'hrsh7th/nvim-cmp', -- Code completion engine
+    'hrsh7th/nvim-cmp', -- Clone the code completion engine
     event = 'InsertEnter', -- Enable only in insert mode
     dependencies = {
         'hrsh7th/cmp-buffer', -- Source for text in current file
         'hrsh7th/cmp-path', -- Source for system paths
         {
-            'L3MON4D3/LuaSnip', -- Snippet engine
-            version = 'v2.*', -- LuaSnip version 
+            'L3MON4D3/LuaSnip', -- Clone the snippet engine
+            version = 'v2.*', -- Luasnip version 
         },
         'saadparwaiz1/cmp_luasnip', -- Snippets for code completion
         'rafamadriz/friendly-snippets', -- Useful snippets
