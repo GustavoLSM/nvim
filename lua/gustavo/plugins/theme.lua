@@ -1,7 +1,11 @@
 -- Colorscheme
 return {
-    'EdenEast/nightfox.nvim', -- Clone the colorscheme
+    'marko-cerovac/material.nvim', -- Clone the colorscheme
     config = function()
-        vim.cmd('colorscheme carbonfox') -- Load the colorscheme
+        require('material').setup({
+            lualine_style = 'default' -- Enables Lualine Theme
+        })
+        vim.g.material_style = 'deep ocean'
+        vim.cmd('colorscheme material') -- Load the colorscheme
     end,
 }
