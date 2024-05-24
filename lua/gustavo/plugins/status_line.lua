@@ -5,7 +5,7 @@ return {
     config = function()
         require('lualine').setup({ -- Load Lualine
             options = {
-                theme = '16color' -- Load Lualine theme
+                theme = 'material' -- Load Lualine theme
             }
         })
     end,
