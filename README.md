@@ -1,3 +1,9 @@
-### Configuração do NeoVim com auto completar de código
+# Dependências
+- Ripgrep
+- Fd
+- Xclip
+- Nodejs
+- Npm
 
-![uso_vim-2024-04-02_13 08 58](https://github.com/GustavoLSM/nvim/assets/77353846/9d25b4e9-12db-4f54-b686-cea4137d6c60)
+### Instalação
+- cd ~/.config && git clone https://github.com/GustavoLSM/nvim
